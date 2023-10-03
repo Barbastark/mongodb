@@ -1,0 +1,162 @@
+[
+  {
+    "title": "the hitchhikers guide to the galaxy",
+    "author": "douglas adams",
+    "year": 1979,
+    "isbn": "0-330-25864-8",
+    "genre": "science fiction",
+    "pages": 224,
+    "publisher": "pan books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "the restaurant at the end of the universe",
+    "author": "douglas adams",
+    "year": 1980,
+    "isbn": "0-330-26738-8",
+    "genre": "science fiction",
+    "pages": 208,
+    "publisher": "pan books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/RestaurantAtTheEndOfTheUniverse.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "life, the universe and everything",
+    "author": "douglas adams",
+    "year": 1982,
+    "isbn": "0-330-26740-X",
+    "genre": "science fiction",
+    "pages": 240,
+    "publisher": "pan books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Life_the_universe_and_everything.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "so long, and thanks for all the fish",
+    "author": "douglas adams",
+    "year": 1984,
+    "isbn": "0-330-28761-5",
+    "genre": "science fiction",
+    "pages": 224,
+    "publisher": "pan books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/So_long_and_thanks_for_all_the_fish.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "mostly harmless",
+    "author": "douglas adams",
+    "year": 1992,
+    "isbn": "0-330-31407-9",
+    "genre": "science fiction",
+    "pages": 240,
+    "publisher": "pan books",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Mostly_Harmless.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "dirk gently's holistic detective agency",
+    "author": "douglas adams",
+    "year": 1987,
+    "isbn": "0-671-63855-0",
+    "genre": "science fiction",
+    "pages": 306,
+    "publisher": "simon & schuster",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Dirk_Gently%27s_Holistic_Detective_Agency_%28book_cover%29.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "the long dark tea-time of the soul",
+    "author": "douglas adams",
+    "year": 1988,
+    "isbn": "0-671-67780-5",
+    "genre": "science fiction",
+    "pages": 306,
+    "publisher": "simon & schuster",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Dirk_Gently%27s_Holistic_Detective_Agency_%28book_cover%29.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  },
+  {
+    "title": "the salmon of doubt",
+    "author": "douglas adams",
+    "year": 2002,
+    "isbn": "0-330-48455-9",
+    "genre": "science fiction",
+    "pages": 336,
+    "publisher": "macmillan",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Dirk_Gently%27s_Holistic_Detective_Agency_%28book_cover%29.jpg",
+    "reviews": [
+      {
+        "rating": 5,
+        "review": "this is a great book"
+      },
+      {
+        "rating": 4,
+        "review": "this is a good book"
+      }
+    ]
+  }
+]

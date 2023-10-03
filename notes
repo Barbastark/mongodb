@@ -1,0 +1,78 @@
+*************************
+*** Basic Terminology ***
+*************************
+
+Collection: a collection of documents. The equivalent of a table in sql.
+
+Document: a single entry in a collection.
+
+Field: a key/value pair in a document.
+
+
+
+****************************
+*** Mongo Shell Commands ***
+****************************
+
+mongosh -> start mongo shell
+
+cls -> clear terminal
+
+exit -> exit mongosh
+
+help -> list all commands and what they do
+
+db -> output name of current db
+
+show dbs -> list databases
+
+show collections -> list collections in active db
+
+use <dbname> -> switch to or create <dbname>
+
+*****************************************
+*** Working with databases from shell ***
+*****************************************
+
+- insert single document into collection
+ 
+  db.<collection>.insertOne({title: "a title"})
+
+- insert multiple documents into a collection
+
+  db.<collection>.insertMany([{obj1},{obj2...}])
+
+- prints first 20 results in the terminal.
+
+  arguments:
+    filter -> a conditional object. to only limit what fields are returned,
+              pass an empty object followed by the fields object. 
+    fields -> an object containing desired document fields
+
+    db.<collection>.find(filter, fields)
+
+  it (iterate) -> print next 20 results in terminal
+
+- find one document. in case of several matches, the first one is returned.
+
+  db.<collection>.findOne({author: "Kalle Stropp"})
+
+- count returns the number of documents found.
+
+  db.<collection>.find({author: "Kalle Stropp"}).count() 
+
+- the limit method limits the number of documents returned
+  returns the first 5 results 
+
+  db.<collection>.limit(5)
+
+- sorting documents
+
+  arguments
+    1 -> sort in ascending order
+    -1 -> sort in descending order
+
+  * sort by title in descending order
+  db.<collection>.sort({title: -1})
+
+*** Nested Documents *** 
